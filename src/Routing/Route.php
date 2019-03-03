@@ -123,7 +123,7 @@ class Route extends \Illuminate\Routing\Route
 
         // Now that the default route properties have been set we'll go ahead and merge
         // any controller properties to fully configure the route.
-        $this->mergeControllerProperties();
+        // $this->mergeControllerProperties();
 
         // If we have a string based throttle then we'll new up an instance of the
         // throttle through the container.
